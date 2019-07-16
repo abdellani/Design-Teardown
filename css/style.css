@@ -94,32 +94,58 @@ nav ul li{
   grid-template-areas: 
   "header header header"
   "item1 item2 item3";
-
 }
-#section-2 div{
+.article-link{
   padding:20px;
   font-size: 20px;
- 
 }
-#section-2 div h1{
+.article-link h1{
   text-decoration: underline;
   margin-top: 50px;
 }
 #section-2 div:nth-child(1){
   grid-area: header;
-  background-color: red;
 }
 #section-2 div:nth-child(2){
   grid-area: item1;
-  background-color: blue;
 }
 #section-2 div:nth-child(3){
-  grid-area: item2;
-  background-color: yellow;
-  
+  grid-area: item2;  
 }
 #section-2 div:nth-child(4){
   grid-area: item3;
-  background-color: green;
+}
+#section-3{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 650px 570px;
+  grid-template-areas: 
+  "item1 item2 item2"
+  "item3 item4 item5";
+}
+#section-3 div:nth-child(1){
+  grid-area: item1;
+}
+#section-3 div:nth-child(2){
+  grid-area: item2;
+}
+#section-3 div:nth-child(2) p {
+  
+}
 
+#section-3 div:nth-child(3){
+  grid-area: item3;
+}
+#section-3 div:nth-child(4){
+  grid-area: item4;
+}
+#section-3 div:nth-child(5){
+  grid-area: item5;
+}
+#friend-website{
+  height:277px;
+  width:247px;
+  background-color: white;
+  margin: auto;
+  margin-top:50px;
 }
