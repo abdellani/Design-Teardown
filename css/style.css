@@ -13,7 +13,7 @@ nav ul {
   list-style: none;
   display: grid;
   height:180px;
-  grid-template-columns: repeat(6,1fr);
+  grid-template-columns: repeat(7,1fr);
 }
 nav ul li{
   justify-self: center;
@@ -207,4 +207,33 @@ nav ul li{
   font-size: 20.0px;
   font-family: Mija;
   margin-top:20px;
+}
+
+#section-5{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: 425px 400px 1000px;
+  grid-template-areas: 
+  "item1 item1 item1"
+  "item2 item3 item4"
+  "item5 item6 item6" 
+}
+#section-5 div:nth-child(1){
+  grid-area: item1;
+}
+
+#section-5 div:nth-child(2){
+  grid-area: item2;
+}
+#section-5 div:nth-child(3){
+  grid-area: item3;
+}
+#section-5 div:nth-child(4){
+  grid-area: item4;
+}
+#section-5 div:nth-child(5){
+  grid-area: item5;
+}
+#section-5 div:nth-child(6){
+  grid-area: item6;
 }
