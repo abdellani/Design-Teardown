@@ -137,7 +137,7 @@ nav ul li {
   left: 50%;
   margin-left: -200px;
   top: 40px;
-  font-size: calc(26px + (30 - 26) * (100vw - 350px)/(1300 - 350));
+  font-size: calc(26px + (30 - 26) * (100vw - 350px) / (1300 - 350));
   font-weight: bold;
   font-family: 'Spinnaker', sans-serif;
   letter-spacing: -1px;
