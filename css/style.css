@@ -39,7 +39,8 @@ nav ul li{
   left:50%;
   margin-left:-200px;
   top:40px;
-  font-size: calc(26px + (30 - 26) * (100vw - 350px)/ (1300 - 350));
+   font-size: calc(26px + (30 - 26) * (100vw - 350px)/ (1300 - 350));
+  
   font-weight: bold;
   font-family: Mija;
   letter-spacing: -1px;
@@ -267,7 +268,7 @@ nav ul li{
    
     font-size: calc(1.3em + .2vw);
     line-height: calc(1.5em + .2vw);
-    word-break: break-word;
+  
     width:80%;
     
     
