@@ -245,24 +245,30 @@ nav ul li {
 }
 
 #footer ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
   margin: 100px auto 0 auto;
   font-size: calc(1.3em + 0.2vw);
   line-height: calc(1.5em + 0.2vw);
   width: 80%;
+
 }
 
-#footer ul li::before {
-  content: "• ";
-}
+
 
 #footer ul li a {
   text-decoration: none;
+  position: relative;
   color: white;
+  left:-12px;
 }
 
 #footer ul li {
-  display: inline-block;
+ 
   color: white;
+  margin-right: 20px;
   padding: 10px;
 }
 
