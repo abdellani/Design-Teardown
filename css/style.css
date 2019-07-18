@@ -85,7 +85,7 @@ nav ul li button {
   margin: auto;
   font-family: Spinnaker, sans-serif;
   font-size: 50px;
-  margin-top: 300px;
+  margin-top: 150px;
   color: white;
 }
 
@@ -216,31 +216,31 @@ nav ul li button {
   grid-template-areas: "item1 item1 item1" "item2 item3 item4" "item5 item6 item6";
 }
 
-#section-5 div:nth-child(1) {
+#section-5 article:nth-child(1) {
   grid-area: item1;
 }
 
-#section-5 div:nth-child(1) img {
+#section-5 article:nth-child(1) img {
   float: right;
 }
 
-#section-5 div:nth-child(2) {
+#section-5 article:nth-child(2) {
   grid-area: item2;
 }
 
-#section-5 div:nth-child(3) {
+#section-5 article:nth-child(3) {
   grid-area: item3;
 }
 
-#section-5 div:nth-child(4) {
+#section-5 article:nth-child(4) {
   grid-area: item4;
 }
 
-#section-5 div:nth-child(5) {
+#section-5 article:nth-child(5) {
   grid-area: item5;
 }
 
-#section-5 div:nth-child(6) {
+#section-5 article:nth-child(6) {
   grid-area: item6;
   text-align: center;
 }
@@ -282,15 +282,15 @@ nav ul li button {
   padding: 10px;
 }
 
-#section-2 div:nth-child(1) {
+#section-2 article:nth-child(1) {
   grid-area: item1;
 }
 
-#section-2 div:nth-child(2) {
+#section-2 article:nth-child(2) {
   grid-area: item2;
 }
 
-#section-2 div:nth-child(3) {
+#section-2 article:nth-child(3) {
   grid-area: item3;
 }
 
@@ -301,23 +301,23 @@ nav ul li button {
   grid-template-areas: "item1 item2 item2" "item3 item4 item5";
 }
 
-#section-3 div:nth-child(1) {
+#section-3 article:nth-child(1) {
   grid-area: item1;
 }
 
-#section-3 div:nth-child(2) {
+#section-3 article:nth-child(2) {
   grid-area: item2;
 }
 
-#section-3 div:nth-child(3) {
+#section-3 article:nth-child(3) {
   grid-area: item3;
 }
 
-#section-3 div:nth-child(4) {
+#section-3 article:nth-child(4) {
   grid-area: item4;
 }
 
-#section-3 div:nth-child(5) {
+#section-3 article:nth-child(5) {
   grid-area: item5;
 }
 
