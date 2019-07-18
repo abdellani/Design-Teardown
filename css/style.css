@@ -10,27 +10,40 @@ header {
 
 nav ul {
   list-style: none;
-  display: grid;
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
   height: 180px;
-  grid-template-columns: repeat(7, 1fr);
 }
 
 nav ul li {
-  justify-self: center;
   align-self: center;
 }
 
+nav ul li button {
+  padding: 10px;
+  border-radius: 5px;
+  width: 132px;
+  height: 52px;
+  border: 2px solid white;
+  color: white;
+}
+
 /* Section 1 Styles */
-.profile{
+
+.profile {
   height: 75px;
   width: 75px;
   border: 5px solid white;
   border-radius: 5px;
 }
-#section-4 .profile{
+
+#section-4 .profile {
   position: absolute;
   left: 20px;
 }
+
 .darkGray {
   background-color: #242424;
 }
@@ -116,12 +129,13 @@ nav ul li {
   position: relative;
 }
 
-.cat{
+.cat {
   display: block;
   width: 256px;
   height: 288px;
-  margin:auto;
+  margin: auto;
 }
+
 .section4-part div {
   width: 80%;
   margin-left: 20%;
@@ -172,11 +186,12 @@ nav ul li {
   grid-template-rows: 600px;
   grid-template-areas: "item1 item2 item3";
 }
-#person-of-week .profile{
+
+#person-of-week .profile {
   width: 286px;
   height: 286px;
   float: left;
-  margin-right:  50px;
+  margin-right: 50px;
 }
 
 #coming-event {
@@ -206,7 +221,7 @@ nav ul li {
 }
 
 #section-5 div:nth-child(1) img {
-  float:right;
+  float: right;
 }
 
 #section-5 div:nth-child(2) {
@@ -248,25 +263,20 @@ nav ul li {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-
   margin: 100px auto 0 auto;
   font-size: calc(1.3em + 0.2vw);
   line-height: calc(1.5em + 0.2vw);
   width: 80%;
-
 }
-
-
 
 #footer ul li a {
   text-decoration: none;
   position: relative;
   color: white;
-  left:-12px;
+  left: -12px;
 }
 
 #footer ul li {
- 
   color: white;
   margin-right: 20px;
   padding: 10px;
