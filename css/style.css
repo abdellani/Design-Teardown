@@ -10,17 +10,39 @@ header {
 
 nav ul {
   list-style: none;
-  display: grid;
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
   height: 180px;
-  grid-template-columns: repeat(7, 1fr);
 }
 
 nav ul li {
-  justify-self: center;
   align-self: center;
 }
 
+nav ul li button {
+  padding: 10px;
+  border-radius: 5px;
+  width: 132px;
+  height: 52px;
+  border: 2px solid white;
+  color: white;
+}
+
 /* Section 1 Styles */
+
+.profile {
+  height: 75px;
+  width: 75px;
+  border: 5px solid white;
+  border-radius: 5px;
+}
+
+#section-4 .profile {
+  position: absolute;
+  left: 20px;
+}
 
 .darkGray {
   background-color: #242424;
@@ -63,7 +85,7 @@ nav ul li {
   margin: auto;
   font-family: Spinnaker, sans-serif;
   font-size: 50px;
-  margin-top: 300px;
+  margin-top: 150px;
   color: white;
 }
 
@@ -104,6 +126,14 @@ nav ul li {
 
 .section4-part {
   color: white;
+  position: relative;
+}
+
+.cat {
+  display: block;
+  width: 256px;
+  height: 288px;
+  margin: auto;
 }
 
 .section4-part div {
@@ -157,8 +187,16 @@ nav ul li {
   grid-template-areas: "item1 item2 item3";
 }
 
+#person-of-week .profile {
+  width: 286px;
+  height: 286px;
+  float: left;
+  margin-right: 50px;
+}
+
 #coming-event {
   height: 1039px;
+  text-align: center;
 }
 
 #person-of-week {
@@ -178,28 +216,33 @@ nav ul li {
   grid-template-areas: "item1 item1 item1" "item2 item3 item4" "item5 item6 item6";
 }
 
-#section-5 div:nth-child(1) {
+#section-5 article:nth-child(1) {
   grid-area: item1;
 }
 
-#section-5 div:nth-child(2) {
+#section-5 article:nth-child(1) img {
+  float: right;
+}
+
+#section-5 article:nth-child(2) {
   grid-area: item2;
 }
 
-#section-5 div:nth-child(3) {
+#section-5 article:nth-child(3) {
   grid-area: item3;
 }
 
-#section-5 div:nth-child(4) {
+#section-5 article:nth-child(4) {
   grid-area: item4;
 }
 
-#section-5 div:nth-child(5) {
+#section-5 article:nth-child(5) {
   grid-area: item5;
 }
 
-#section-5 div:nth-child(6) {
+#section-5 article:nth-child(6) {
   grid-area: item6;
+  text-align: center;
 }
 
 #footer {
@@ -217,36 +260,37 @@ nav ul li {
 }
 
 #footer ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   margin: 100px auto 0 auto;
   font-size: calc(1.3em + 0.2vw);
   line-height: calc(1.5em + 0.2vw);
   width: 80%;
 }
 
-#footer ul li::before {
-  content: "• ";
-}
-
 #footer ul li a {
   text-decoration: none;
+  position: relative;
   color: white;
+  left: -12px;
 }
 
 #footer ul li {
-  display: inline-block;
   color: white;
+  margin-right: 20px;
   padding: 10px;
 }
 
-#section-2 div:nth-child(1) {
+#section-2 article:nth-child(1) {
   grid-area: item1;
 }
 
-#section-2 div:nth-child(2) {
+#section-2 article:nth-child(2) {
   grid-area: item2;
 }
 
-#section-2 div:nth-child(3) {
+#section-2 article:nth-child(3) {
   grid-area: item3;
 }
 
@@ -257,23 +301,23 @@ nav ul li {
   grid-template-areas: "item1 item2 item2" "item3 item4 item5";
 }
 
-#section-3 div:nth-child(1) {
+#section-3 article:nth-child(1) {
   grid-area: item1;
 }
 
-#section-3 div:nth-child(2) {
+#section-3 article:nth-child(2) {
   grid-area: item2;
 }
 
-#section-3 div:nth-child(3) {
+#section-3 article:nth-child(3) {
   grid-area: item3;
 }
 
-#section-3 div:nth-child(4) {
+#section-3 article:nth-child(4) {
   grid-area: item4;
 }
 
-#section-3 div:nth-child(5) {
+#section-3 article:nth-child(5) {
   grid-area: item5;
 }
 
