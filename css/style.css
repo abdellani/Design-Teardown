@@ -336,7 +336,7 @@ nav ul li button {
     grid-template-areas: "item1 item2 " "item3 .";
     background-color: #8f8f8f;
   }
-  
+
   #section-3 {
     display: grid;
     grid-template-columns: 1fr 1fr;
