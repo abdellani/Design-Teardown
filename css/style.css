@@ -336,6 +336,7 @@ nav ul li button {
     grid-template-areas: "item1 item2 " "item3 .";
     background-color: #8f8f8f;
   }
+  
   #section-3 {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -343,11 +344,13 @@ nav ul li button {
     grid-template-areas: "item1 ." "item2 item2" "item3 item4" "item5 .";
     background-color: #8f8f8f;
   }
+
   #section-4 {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, 414px);
   }
+
   #section-5 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -363,12 +366,14 @@ nav ul li button {
     grid-template-rows: 812.41px;
     position: relative;
   }
+
   #section-2 {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 600px;
     grid-template-areas: "item1" "item2" "item3";
   }
+
   #section-3 {
     display: grid;
     grid-template-columns: 1fr;
@@ -376,9 +381,11 @@ nav ul li button {
     grid-template-areas: "item1" "item2" "item3" "item4" "item5";
     background-color: #8f8f8f;
   }
+
   #section-4 .profile {
     top: 10px;
   }
+
   #section-5 {
     display: grid;
     grid-template-columns: 1fr;
